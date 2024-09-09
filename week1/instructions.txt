@@ -1,0 +1,22 @@
+Instructions for week1 exercises
+
+This week you are going to be familiarized in web programming and introducing yourself in HTML and JavaScript environments. You are also going to create a simple notebook application. 
+
+Note: If you do not want to use VSCode with the live server extension, you can install Node.js to your machine and run the website on a local server. Alternatively you can use CodeSandbox (not really recommended)
+
+1. Hello world! 
+Create an html file called index.html. This should be the main page for every week's exercises. Insert a <h1> tag in the body of the document. The h1 tag should have the text “Hello world” inside.
+
+2. Creating a button 
+Create a <button> tag with an id of "my-button". The button should print “hello world” to console when clicked. 
+
+Note: if you link an external JavaScript file, you should place the tag at the end of the body, or add a defer attribute to the <script> tag (<script src="foo/bar.js" defer></script>), in order to parse the entire document before running the script and referencing the DOM! Otherwise the script file could reference elements that the HTML parser hasn't parsed yet resulting in Null references!
+
+3. Button DOM changes 
+Let’s add some real functionality to the button. In addition to printing “hello world” to the console, it should also change the text inside the <h1> tag to “Moi maailma”. 
+
+4. Unordered list 
+Add  a <ul> tag and a <button> tag to the body of the document. The button should have an id of add-data and the list should have an id of my-list and the button should add an <li> element with text of your choice inside the <ul> tag. 
+
+5. Custom text to list 
+Add a <textarea> tag to the document. Now, instead of some arbitrary text the button (same as in task 4) should add the text written  inside the textarea to the <li> tag. 
