@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="javascript/script.js" defer></script>
+</head>
+<body>
+    <div class="table">
+        <table id="user-information-table">
+            <tr>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Admin</th>
+            </tr>
+            <tr>
+                <td>Webmaster</td>
+                <td>Webmaster@ex.ex</td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <td>User1</td>
+                <td>User1@ex.ex</td>
+                <td>-</td>
+            </tr>
+        </table>
+    </div>
+    <div class="form">
+        <form id="user-form">
+            <label for="username">Username:</label><br>
+            <input type="text" id="input-username" name="username"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="input-email" name="email"><br>
+            <label for="admin">Admin:</label><br>
+            <input type="checkbox" id="input-admin" name="admin"><br>
+            <button id="submit-data">Submit</button>
+            <button id="empty-table">Clear table</button><br>
+            <input type="file" id="input-image">
+        </form>
+    </div>
+</body>
+</html>
+<!-- EOF -->

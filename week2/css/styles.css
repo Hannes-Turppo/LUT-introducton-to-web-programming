@@ -1,0 +1,6 @@
+.table td {
+    border: solid 1px black;
+}
+.form label {
+    margin-top: 5px;
+}
