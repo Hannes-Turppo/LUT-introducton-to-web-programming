@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(236, 239, 241);
+}
+.show-container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.show-data {
+    background-color: rgb(207, 216, 220);
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px lightgreen;
+}
+.show-data h1 {
+    text-align: center;
+}
+.show-data img {
+    display: block;
+}
+.show-info {
+    width: 100%;
+}
+@media (min-width: 800px) { 
+    .show-data {
+        display: flex; 
+        justify-content: space-between;
+    }
+    .show-info {
+        padding: 10px;
+    }
+}
+@media (max-width: 800px) {
+
+    img {
+        margin: auto;
+    }
+    .show-info p {
+        text-align: center;
+        padding: 10px;
+    }
+}

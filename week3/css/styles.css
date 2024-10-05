@@ -16,8 +16,16 @@ table {
     table-layout: fixed;
     width: 100%;
 }
+/* good or bad unemployment */
+.good {
+    background-color: #abffbd !important;
+}
+.bad {
+    background-color: #ff9e9e !important;
+}
 tr:nth-child(even) {
     background-color: #f2f2f2;
+
 }
 th {
     background-color: #b7d0ff;
@@ -27,11 +35,4 @@ th {
 td {
     padding: 6px;
     border-bottom: solid gray 1px;
-}
-/* good or bad unemployment */
-.good {
-    background-color: #abffbd;
-}
-.bad {
-    background-color: #ff9e9e;
 }
